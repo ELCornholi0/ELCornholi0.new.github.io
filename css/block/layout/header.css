@@ -1,0 +1,36 @@
+.header {
+  background: #5973b1;
+}
+
+.header__container {
+  font-family: "Roboto";
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__img {
+  margin: 20px 0px 0px 21px;
+}
+
+.contacts__phone {
+  color: #fff;
+  font-size: 21px;
+  text-transform: uppercase;
+  line-height: 2.57;
+  margin-right: 20px ;
+}
+.contacts__workhours {
+  color: #fff;
+  font-size: 14px;  
+  text-decoration: underline;
+  line-height: 3.857;
+  opacity: 0.702;
+  margin: -28px 0 0 70px
+}
+
+.contacts__workhours:hover {
+  background-image: url(/img/whhover.jpg);
+  top: 15px;
+  z-index: 1;
+}

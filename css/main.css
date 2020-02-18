@@ -1,0 +1,145 @@
+@import url('./block/layout/normolize.css');
+@import url('./block/layout/base.css');
+
+@import url('./team.css');
+@import url('./block/layout/header.css');
+@import url('./block/layout/footer.css');
+@import url('./block/layout/sidebar.css');
+@import url('./block/layout/breadcrumbs.css');
+@import url('./reviews.css');
+@import url('./block/layout/form.css');
+
+
+
+.container__main {
+  display: flex;
+}
+
+.content-text {
+  width: 860px;
+}
+
+.cover {
+  position: relative;
+  margin: 0px 0px 4px;
+}
+
+.title {
+  left: 198.047px;
+  font-size: 49px;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin: 0px 0px 74px 0px;
+  line-height: 0.776;
+}
+
+
+.rates__item {
+  display: inline-flex;
+  text-align: center;
+  margin-right: 85px;
+}
+
+.item__rates-list {
+  justify-content: space-between;
+  text-align: left;
+  margin-left: 20px;
+  font-family: "Roboto";
+  line-height: 1.667;
+}
+
+.rates {
+  margin-left: 36px;
+  height: 455px;
+  margin-bottom: 22px;
+}
+
+.rates__name {
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 4.767;
+  text-align: center;
+  margin: 0px;
+  }
+
+p{
+margin: 0px;
+}
+
+.item__rates-price {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Myriad Pro";
+  line-height: 3.383;
+}
+
+.news {
+  margin-left: 197px;
+}
+
+.news__item {
+  display: flex;
+  text-align: left;
+  margin-bottom: 54px;
+  width: 830px;
+}
+
+.news__avatar {
+  margin-right: 20px;
+}
+
+.news-name {
+  font-size: 18px;
+  font-family: "Roboto";
+  text-align: left;
+  font-weight: bold;
+}
+.news__text {
+  font-size: 18px;
+  font-family: "Roboto";
+  text-align: left;
+  margin-top: 11px;
+  margin-bottom: 5px;
+  line-height: 1.52;
+}
+
+.news__avatar-img {
+  max-height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  height: 100%;
+  }
+
+.pagination {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Roboto";
+  text-decoration: none;
+  margin-bottom: 52px;
+}
+.pagination__list, .pagination__item, .pagination__display, .pagination__controls {
+  display: inline-block;
+}
+
+.pagination__display {  
+  margin-left: 200px;
+  color: #646464;
+  text-align: left;
+  margin-right: 22px;
+}
+
+.pagination__link, .pagination__left, .pagination__right {
+  text-decoration: none;
+  color:black;
+  letter-spacing: 13px;
+  font-weight: bold;
+}
+
+.pagination__link:hover, .pagination__item--active {
+  color: white;
+  background-color: #5972b1;
+  border-radius: 3px;
+}
+

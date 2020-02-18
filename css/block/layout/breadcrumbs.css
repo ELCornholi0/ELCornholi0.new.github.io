@@ -1,0 +1,35 @@
+.breadcrumbs__menu {
+  margin: 0;
+}
+
+.breadcrumbs__item,
+.breadcrumbs__link,
+.breadcrumbs__separator {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.breadcrumbs__item:after {
+  content: "/";
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.breadcrumbs__link {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgba(58, 91, 191, 0.8);
+  font-style: italic;
+  text-decoration: underline;
+  line-height: 1.286;
+}
+
+.breadcrumbs__link--active {
+  color: rgba(34, 31, 31, 0.8);
+  text-decoration: none;
+}
+
