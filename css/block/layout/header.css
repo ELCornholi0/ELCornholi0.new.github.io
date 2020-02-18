@@ -31,6 +31,4 @@
 
 .contacts__workhours:hover {
   background-image: url(/img/whhover.jpg);
-  top: 15px;
-  z-index: 1;
 }
