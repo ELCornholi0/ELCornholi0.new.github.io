@@ -8,20 +8,19 @@
 @import url('./block/layout/breadcrumbs.css');
 @import url('./reviews.css');
 @import url('./block/layout/form.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700&display=swap');
 
-
+.body {
+  font-family: 'Roboto', sans-serif;
+}
 
 .container__main {
   display: flex;
 }
 
-.content-text {
-  width: 860px;
-}
 
 .cover {
   position: relative;
-  margin: 0px 0px 4px;
 }
 
 .title {
@@ -33,36 +32,54 @@
   line-height: 0.776;
 }
 
+.rates__title {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(38, 36, 36);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.167;
+}
 
 .rates__item {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  margin-right: 85px;
+  width: 270px;
+  padding-top: 30px;
 }
 
 .item__rates-list {
+  font-size: 16px;
   justify-content: space-between;
   text-align: left;
   margin-left: 20px;
   font-family: "Roboto";
   line-height: 1.667;
+  list-style-type: disc;
 }
 
 .rates {
-  margin-left: 36px;
-  height: 455px;
-  margin-bottom: 22px;
+  border: 1px solid #e8e8ec;
 }
 
 .rates__name {
-  font-size: 14px;
+  font-size: 15px;
   font-family: "Roboto";
+  color: rgb(38, 38, 38);
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 4.767;
+  line-height: 4;
   text-align: center;
-  margin: 0px;
-  }
+}
+
+.rates__text {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(38, 36, 36);
+  line-height: 1.667;
+  text-align: left;
+}
 
 p{
 margin: 0px;
@@ -72,18 +89,19 @@ margin: 0px;
   text-align: center;
   font-size: 50px;
   font-family: "Myriad Pro";
-  line-height: 3.383;
+  line-height: 2.4;
 }
 
-.news {
-  margin-left: 197px;
+.news__list {
+  display: flex;
 }
-
 .news__item {
   display: flex;
-  text-align: left;
-  margin-bottom: 54px;
-  width: 830px;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100%/3 - 20px);
+  margin-right: 20px;
+  margin-bottom: 30px;
 }
 
 .news__avatar {
@@ -113,6 +131,7 @@ margin: 0px;
   }
 
 .pagination {
+  display: flex;
   text-align: center;
   font-size: 14px;
   font-family: "Roboto";

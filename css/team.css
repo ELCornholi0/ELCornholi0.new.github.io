@@ -15,7 +15,7 @@ margin-bottom: 55px;
   line-height: 0.776;
 }
 
-.sidebar  {
+.sidebar__team  {
   margin-top: 55px;
   margin-right: 90px;
   text-align: center;
@@ -73,8 +73,9 @@ margin-bottom: 55px;
 }
 
 .content-partners {
-  border-bottom:1px solid grey;
+  border:1px solid #e8e8ec;
   margin-bottom: 20px;
+  width: 270px;
 }
 
 .partners__title {

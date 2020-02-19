@@ -10,12 +10,14 @@
 .footer__container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .copyright {
 width: 200px;
 }
 
 .socials__title {
+  text-align: center;
   font-size: 14px;
   font-weight: bold;
   line-height: 3.857;
@@ -24,11 +26,9 @@ width: 200px;
 .socials__link {
   margin-right: 10px;
 }
-.socials__item, .socials__list, .cocials__link {
+.socials__list {
   display: flex;
-  justify-content: space-around;
-}
+  justify-content: space-evenly;
+  }
 
-.logo__imgfoot  {
-  margin-left: 400px;
-}
+  
