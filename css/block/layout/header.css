@@ -26,11 +26,20 @@
   position: relative;
 }
 
+.dropdown:hover .dropdown__menu {
+  display: block;
+}
+
 .dropdown__menu {
   position: absolute;
   background: #fff;
   opacity: 0.949;
+  height: 70px;
+  width: 160px;
+  text-align: center;
   box-shadow: 0px 0px 10px 0px rgba(42, 61, 115, 0.55);
+  top: 100%;
+  display: none;
 }
 
 .dropdown__link{
@@ -41,11 +50,17 @@
   margin: -28px 0 0 70px
 }
 
-.contacts__workhours:hover {
-  opacity: 0.702;
-  
+.dropdown__link:hover {
+  opacity: 0.702;  
 }
 
+.dropdown__list {
+  margin-top: 10px;
+}
+
+.dropdown__work {
+  color: #5972b1;
+}
 
 
 
