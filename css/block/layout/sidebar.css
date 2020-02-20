@@ -52,27 +52,30 @@ color: black;
 .menu__item--main .menu__link:before {
   background-image: url(/img/icon/main_icon.png);
 }
-
 .menu__item--main .menu__link:hover:before {
   background-image: url(/img/icon/main_icon_active.png);
 }
+.menu__item--active.menu__item--main .menu__link:before {
+  background-image: url(/img/icon/main_icon_active.png);
+}
+
 
 .menu__item--reviews .menu__link:before {
   background-image: url(/img/icon/star_icon.png);
 }
-
 .menu__item--reviews .menu__link:hover:before {
+  background-image: url(/img/icon/star_icon_active.png);
+}
+.menu__item--active.menu__item--reviews .menu__link:before {
   background-image: url(/img/icon/star_icon_active.png);
 }
 
 .menu__item--pilots .menu__link:before {
   background-image: url(/img/icon/pilot_icon.png);
 }
-
 .menu__item--pilots .menu__link:hover:before {
   background-image: url(/img/icon/pilot_icon_active.png);
 }
-
 .menu__item--active.menu__item--pilots .menu__link:before {
   background-image: url(/img/icon/pilot_icon_active.png);
 }
