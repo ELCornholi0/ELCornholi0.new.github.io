@@ -8,7 +8,7 @@
 
 .title__reviews {
 margin-top: 15px;
-margin-bottom: 50px;
+margin-bottom: 45px;
 font-size: 49px;
 font-family: "Roboto";
 color: rgb(38, 36, 36);
@@ -19,7 +19,7 @@ line-height: 0.776;
 .reviews__item {
   display: flex;
   border-bottom:1px solid #f4f4f4;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .reviews__item:last-child {
@@ -32,7 +32,11 @@ line-height: 0.776;
   border-radius: 50%;
   object-fit: cover;
   height: 100%; 
-  margin-right: 15px;
+  margin-right: 25px;
+}
+
+.single-review__text {
+font-size: 20px;
 }
 
 .mid__text {

@@ -7,7 +7,7 @@
 @import url('./block/layout/footer.css');
 @import url('./block/layout/sidebar.css');
 @import url('./block/layout/breadcrumbs.css');
-@import url('./block/layout/form2.css');
+@import url('./block/layout/form.css');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700&display=swap');
 
 .body {
@@ -28,7 +28,7 @@
   font-size: 49px;
   font-family: "Roboto";
   font-weight: bold;
-  margin: 0px 0px 74px 0px;
+  margin: 0px 0px 40px 0px;
   line-height: 0.776;
 }
 
@@ -106,6 +106,7 @@ margin: 0px;
 
 .news__avatar {
   margin-right: 20px;
+  margin-bottom: 44px;
 }
 
 .news-name {
@@ -115,7 +116,7 @@ margin: 0px;
   font-weight: bold;
 }
 .news__text {
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Roboto";
   text-align: left;
   margin-top: 11px;
