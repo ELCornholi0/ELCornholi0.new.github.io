@@ -2,12 +2,13 @@
 @import url('./block/layout/base.css');
 
 @import url('./team.css');
+@import url('./intro.css');
+@import url('./reviews.css');
 @import url('./block/layout/header.css');
 @import url('./block/layout/footer.css');
 @import url('./block/layout/sidebar.css');
 @import url('./block/layout/breadcrumbs.css');
-@import url('./reviews.css');
-@import url('./block/layout/form.css');
+@import url('./block/layout/form2.css');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700&display=swap');
 
 .body {
@@ -138,8 +139,9 @@ margin: 0px;
   text-decoration: none;
   margin-bottom: 52px;
 }
-.pagination__list, .pagination__item, .pagination__display, .pagination__controls {
-  display: inline-block;
+
+.pagination__list {
+  display: flex;
 }
 
 .pagination__display {  
