@@ -5,7 +5,7 @@ body {
 }
 
 .btn:hover .welcome__enter-icon {
-  background-image: url("./img/intro/btnactive.png");
+  background-image: url("../img/intro/btnactive.png");
 }
 
 .welcome {
@@ -58,7 +58,7 @@ body {
 }
   
 .welcome__enter-icon {
-  background: url("./img/intro/btn.png") center center no-repeat;
+  background: url("../img/intro/btn.png") center center no-repeat;
   width: 15px;
   height: 14px;
   display: inline-block;
