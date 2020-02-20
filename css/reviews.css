@@ -23,7 +23,7 @@ line-height: 0.776;
 }
 
 .reviews__item:last-child {
-  border-bottom: none;
+  border-bottom: none
 }
 
 .review__avatar {
