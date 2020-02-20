@@ -58,7 +58,7 @@ body {
 }
   
 .welcome__enter-icon {
-  background: url("../img/icon/main_icon.png") center center no-repeat;
+  background: url("../img/intro/btn.png") center center no-repeat;
   width: 15px;
   height: 14px;
   display: inline-block;
