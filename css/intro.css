@@ -1,0 +1,96 @@
+body {
+  background: url(/img/intro/intro_cover.jpg);
+  background-repeat: no-repeat center;
+  background-size: cover;
+}
+
+.btn:hover .welcome__enter-icon {
+  background-image: url("/img/intro/btnactive.png");
+}
+
+.welcome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: block;
+}
+  
+.wrapper__container {
+  animation: bounce 1s 1s;
+  transform-origin: center bottom;
+}
+  
+.welcome__logo {
+  margin-bottom: 25px;
+  margin-left: 50px;
+  display: inline-block;
+}
+  
+.welcome__enter-btn {
+  white-space: nowrap;
+}
+
+.btn {
+  color: #1c5bc4;
+  padding: 13px 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: 12px;
+  border: 1px solid #1c5bc4;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  transition: .3s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1c5bc4;
+  color: #fff;
+}
+  
+.welcome__enter-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+  
+.welcome__enter-icon {
+  background: url("/img/intro/btn.png") center center no-repeat;
+  width: 15px;
+  height: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -1px;
+  margin-left: 10px;
+  transition: .3s;
+}
+  
+@keyframes bounce {
+
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -4px, 0);
+  }
+}
